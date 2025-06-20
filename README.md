@@ -1,18 +1,11 @@
-# Binance Futures Trading Bot with AI LSTM
+# Binance Futures Trading Bot with AI LSTM (Fly.io Version)
 
-This project is a Binance Futures trading bot using LSTM AI prediction, integrated with technical indicators (RSI, EMA, MACD), auto TP/SL, trailing stop, and Telegram notifications.
-
-## Environment Variables
-Create a `.env` file with the following:
-
-```
-API_KEY=YOUR_BINANCE_API_KEY
-API_SECRET=YOUR_BINANCE_API_SECRET
-TELEGRAM_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
-TELEGRAM_CHAT_ID=YOUR_TELEGRAM_CHAT_ID
-```
-
-## Deployment on Railway
-1. Connect this repo to Railway → https://railway.app
-2. Set the environment variables in Railway dashboard.
-3. Deploy → Railway will automatically detect Dockerfile and build the project.
+## Deployment on Fly.io
+1. Install Fly CLI → https://fly.io/docs/hands-on/install-flyctl/
+2. Login to Fly:
+3. Create app & deploy:
+4. 4. Set secrets (if not using fly.toml env):
+   5. API_KEY = 'Qu56DlO8mdKPklcNk8hjFtPDrDNGq4yDBM2MQqPEFWvvOEddbtwGS2sGVEbBq0eD'
+API_SECRET = 'eb1YhRjcIgx6m2KtgJ7TMpaadmxBRi7OUUQwqAIRn9jAlpKMk9I1XQ97AtrvDgoJ'
+TELEGRAM_TOKEN = '7878575493:AAG-w1AakPNZow6KSaMi-DHz42-9VrTaXIM'
+TELEGRAM_CHAT_ID = '1203327136'
