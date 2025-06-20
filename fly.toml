@@ -1,0 +1,19 @@
+app = "binance-futures-bot"
+
+[build]
+
+[env]
+API_KEY="replace_this"
+API_SECRET="replace_this"
+TELEGRAM_TOKEN="replace_this"
+TELEGRAM_CHAT_ID="replace_this"
+
+[[services]]
+internal_port = 8080
+protocol = "tcp"
+
+  [[services.ports]]
+  port = 80
+
+  [[services.ports]]
+  port = 443
