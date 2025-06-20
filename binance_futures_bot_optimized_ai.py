@@ -10,10 +10,10 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 
-API_KEY = 'YOUR_API_KEY'
-API_SECRET = 'YOUR_API_SECRET'
-TELEGRAM_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-TELEGRAM_CHAT_ID = 'YOUR_TELEGRAM_CHAT_ID'
+API_KEY = 'Qu56DlO8mdKPklcNk8hjFtPDrDNGq4yDBM2MQqPEFWvvOEddbtwGS2sGVEbBq0eD'
+API_SECRET = 'eb1YhRjcIgx6m2KtgJ7TMpaadmxBRi7OUUQwqAIRn9jAlpKMk9I1XQ97AtrvDgoJ'
+TELEGRAM_TOKEN = '7878575493:AAG-w1AakPNZow6KSaMi-DHz42-9VrTaXIM'
+TELEGRAM_CHAT_ID = '1203327136''
 
 SYMBOL = 'BTCUSDT'
 QTY = 0.001
